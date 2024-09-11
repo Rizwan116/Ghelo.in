@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Yesteryear&display=swap');
+
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: "Yesteryear", cursive;
+
+  }
+  
+  .logo-container{
+    
+  }
+  .middle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    flex-direction: column;
+    gap: 20px;
+  
+  }
+  .ghelo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .ghelo-img {
+     width: 100%;
+  }
+  /* .container {
+    width: 1200px;
+  } */
+  .bgimg {
+    background: #000;
+    /* background: rgba(0, 0, 0, 0.5); */
+    height:100vh;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+      font-size: 25px;
+  }
+  img {max-width:100%;}
+  .spacing{
+    /* padding: 25px 10px 0px 10px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:25px;
+    text-align: center;
+  
+    .icon-spacing {
+      /* width: 25%; */
+      width: 70px;
+    }
+  }
+  .wh-container {
+    position: fixed;
+    right: 50px;
+      bottom: 120px;
+  
+    img {
+      width: 230px;
+    }
+  }
+  /* .icon-spacing {
+    padding: 10px;
+  } */
+  /* 
+  .topleft {
+    position: absolute;
+    top: 0;
+    left: 16px;
+  }
+  
+  .bottomleft {
+    position: absolute;
+    bottom: 0;
+    left: 16px;
+  }
+  
+  .middle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  } */
+  
+  /* hr {
+    margin: auto;
+    width: 40%;
+  } */
+  
+  /* #myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    object-fit: cover;
+      width: 100vw;
+      height: 100vh;
+      background: rgba(0, 0, 0, 0.5);
+  
+  } */
+  /* On screens that are 600px or less, set the background color to olive */
+  
